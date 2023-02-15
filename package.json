@@ -1,0 +1,11 @@
+{
+  "name": "DevHouse-Node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/matheusrodela/DevHouse-Node.git",
+  "author": "Matheus Rodela <46487106+matheusrodela@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
