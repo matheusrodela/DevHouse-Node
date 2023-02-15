@@ -1,5 +1,9 @@
-const express = require('express');
-const routes = require('./routes');
+// Caso não use Sucrase é necessário importar assim
+// const express = require('express');
+// const routes = require('./routes');
+
+import express from 'express';
+import routes from './routes';
 
 class App{
 
@@ -21,5 +25,7 @@ class App{
 
 }
 
-//Cria nova instancia e exporta o server
-module.exports = new App().server;
+//Cria nova instancia e exporta o server sem usar Sucrase
+//module.exports = new App().server;
+
+export default new App().server;

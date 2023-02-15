@@ -1,11 +1,18 @@
 {
-  "name": "DevHouse-Node",
+  "name": "dev-house-node",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/matheusrodela/DevHouse-Node.git",
   "author": "Matheus Rodela <46487106+matheusrodela@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "sucrase": "^3.29.0"
   }
 }
