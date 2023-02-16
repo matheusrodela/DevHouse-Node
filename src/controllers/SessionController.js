@@ -1,7 +1,14 @@
+
+import User from '../models/User'
+
 class SessionController{
 
-    store(req, res){
-        return res.json({message: 'minha API'})
+    async store(req, res){
+        const { email } = req.body;
+
+        let user = await User.create({ email: email });
+
+        return res.json(user);
     }
     //O método store foi criado e agora pode ser utilizado.
 
