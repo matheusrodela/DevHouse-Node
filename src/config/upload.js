@@ -11,4 +11,4 @@ export default{
             cb(null, `${name}-${Date.now()}${ext}`)
         },
     })
-}
+};
