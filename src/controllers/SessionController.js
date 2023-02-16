@@ -1,4 +1,4 @@
-import User  from '../models/Users';
+import User  from '../models/User';
     //importa User do model Users e permite que a aplicação crie, edite e apague usuários.
 
 class SessionController{
