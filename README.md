@@ -1,6 +1,6 @@
 # Bem-vindo ao DevHouse-Node!
 
-Este repositório contém o back-end de uma aplicação incrível de aluguel de casas e quartos para desenvolvedores. Com este sistema, usuários poderão se cadastrar e realizar login facilmente, além de reservar uma casa disponível - desde que não seja sua própria casa ou uma casa com status "indisponível". E se precisarem cancelar a reserva, não há problema algum.
+Este repositório contém o back-end de uma aplicação de aluguel de casas e quartos para desenvolvedores. Com este sistema, usuários poderão se cadastrar e realizar login facilmente, além de reservar uma casa disponível - desde que não seja sua própria casa ou uma casa com status "indisponível". E se precisarem cancelar a reserva, não há problema algum.
 
 Para tornar tudo ainda melhor, os usuários logados poderão cadastrar suas próprias casas, editar ou excluir as que já possuem! As casas cadastradas precisam conter informações importantes como uma foto de capa, descrição, preço, localização, preço da diária e status de disponibilidade.
 
